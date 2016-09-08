@@ -1,0 +1,71 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:100,300,400|Montserrat|Open+Sans:300,400|Oswald:300,400|Prompt:100,200,300,400|Raleway:100,200,300,400|Roboto+Condensed:300,400|Roboto:100,300,400|Slabo+27px|Source+Sans+Pro:200,300,400';
+
+body{
+  font-family: "Source Sans Pro",sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4{
+  font-family: 'Lato',sans-serif;
+}
+*{
+  transition: .76s ease-in-out all;
+}
+section{
+  padding: 40px;
+}
+.button-ot{
+  width: 150px;
+  margin: 20px 10px 20px 10px;
+  padding: 10px 64px;
+  background: transparent;
+  color: rgba(0, 121, 200, 1);
+  text-align: center;
+  border: 2px solid rgba(0, 121, 200, 1);
+  text-transform: capitalize;
+  font-size: 14px;
+  text-align: center;
+  .fa{
+    color: rgba(0, 121, 200, 1);
+  }
+  &:hover{
+    cursor: hover;
+    background: rgba(0, 121, 200, 1);
+    color: white;
+    .fa{
+      color: white;
+    }
+  }
+}
+.button{
+  width: 150px;
+  margin: 20px 10px 20px 10px;
+  padding: 10px 64px;
+  background: rgba(0, 121, 200, 1);
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  border: 2px solid white;
+  font-size: 14px;
+  text-align: center;
+  .fa{
+    color: white;
+  }
+  &:hover{
+    cursor: hover;
+    background: white;
+    border: 2px solid rgba(0, 121, 200, 1);
+    color: rgba(0, 121, 200, 1);
+  }
+}
+a{
+  text-decoration: none;
+}
+@import "section-holder";
+@import "section-one";
+@import "animation";
+@import "nav-global";
+@import "line";
+@import "images";
+@import "icon";
+@import "teller";

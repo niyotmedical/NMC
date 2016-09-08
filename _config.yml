@@ -1,0 +1,34 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+gems:
+  - jekyll-seo-tag
+# in the templates via {{ site.myvariable }}.
+title: NMC Medical Centre
+email: niyotmedical@gmail.com
+description: No matter what you do in life, it’s important to be healthy. Being in good health helps you live life to the fullest. Plus, it can make you far more productive at work, and be happier too. The trouble is, there are many factors that can come together to damage someone’s health. Mainly, it’s managing the work-life balance that causes a problem. People live busy lives both in and out of the home. When you’re not rushing around after your kids, you’re working hard in the workplace. Balancing these two things, day after day can put a lot of strain on you. It can damage your physical and mental health, without you knowing. That’s the main issue here, many people are in bad health, without being aware of it. And, they won’t know of any problems unless they get told by a healthcare professional. However, simply booking an appointment with your doctor won’t cut it. You have to go to them with a problem, so they can check it out. And, if you don’t know you have a problem, then what can you do? The answer is simple; you should undergo a health assessment. Health assessments are designed to help analyse your current situation. They can help identify any problems, and address some lingering concerns you have. You’ll be able to see full details on your health, and whether or not your body is in good condition. 
+The Importance Of Health Assessments Health assessments are very important, as they can provide crucial information. And, this is information that you wouldn’t get any other way. Our bodies are complex structures, and there are often problems we know nothing about. It’s only after you have an assessment that you find some hidden issues below the surface. To put it simply, a health assessment can save your life. If you get assessed and find that you have abnormally high blood pressure, then you can start making changes. You change the way you live and get that blood pressure to a reasonable level. As a result, you reduce the risk of heart disease. The same can be applied to many other diseases and health conditions.
+Benefits Of Health Assessments.You can benefit greatly from having a health assessment. As I just mentioned, they can potentially save your life. But, they can also help you change your lifestyle. By seeing the results of assessment, you can change the way you eat, and become a healthier, happier, you! Health assessments are also beneficial as they help test for certain diseases. Men and women can get specific cancer tests within their assessment. This can give you peace of mind if you find out that you don’t have a life-threatening problem. Everyone should get a health assessment at least once per year. Keeping track of your health is essential if you want to live a long life. You can keep on top of any problems, and view the progress you make. If your first assessment reveals numerous issues, you can work towards eradicating them by the time you have your next one.
+
+
+
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+twitter_username: niyotmedical
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+theme: minima
